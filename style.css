@@ -14,7 +14,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://yourusername.github.io/yourrepository/maine-coon.jpg'); /* Replace with your uploaded image URL */
+  background-image: url('https://github.com/Kodiak-M/M2CM/blob/main/openart-image_YsE7xg1Y_1732015465589_raw.png'); /* Replace with your uploaded image URL */
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center center; /* Keeps the image centered */
   background-attachment: fixed; /* Creates a parallax effect when scrolling */
