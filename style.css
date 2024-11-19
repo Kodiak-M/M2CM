@@ -1,0 +1,155 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ff6600;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero .cta-button {
+  background-color: #ff8800;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Tokenomics Section */
+.tokenomics {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.tokenomics .section-header h2 {
+  margin-bottom: 20px;
+}
+
+.token-distribution {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.token-box {
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 8px;
+  width: 22%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.token-box h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.token-box p {
+  font-size: 1em;
+}
+
+/* Roadmap Section */
+.roadmap {
+  padding: 60px 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.roadmap-timeline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.roadmap-item {
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.roadmap-item h3 {
+  margin-bottom: 10px;
+}
+
+.roadmap-item ul {
+  list-style-type: none;
+}
+
+.roadmap-item ul li {
+  margin-bottom: 10px;
+}
+
+/* Community Section */
+.community {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-icon {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 0 10px;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.charity-info {
+  margin-top: 30px;
+}
+
+.charity-info h3 {
+  font-size: 1.5em;
+}
+
+/* Footer Section */
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-footer a {
+  color: #ff6600;
+  text-decoration: none;
+  margin: 0 10px;
+}
