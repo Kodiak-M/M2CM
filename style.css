@@ -14,37 +14,26 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://yourimageurl.com/maine-coon.jpg'); /* Replace with your cat image URL */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
+  background-image: url('https://yourusername.github.io/yourrepository/maine-coon.jpg'); /* Replace with your uploaded image URL */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center center; /* Keeps the image centered */
+  background-attachment: fixed; /* Creates a parallax effect when scrolling */
+  color: white; /* Text color */
   text-align: center;
   position: relative;
   height: 100vh; /* Full viewport height */
-  animation: moveBackground 30s ease-in-out infinite;
+  padding: 0;
 }
 
-/* Hero Gradient Overlay */
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
-  z-index: 1;
-}
-
-/* Hero Content */
+/* Additional styling for content in the hero section */
 .hero .hero-content {
   position: relative;
-  z-index: 10; /* Ensures text appears above the background */
-  margin-top: 20%;
+  z-index: 10; /* Keeps text above the background */
+  padding: 20px;
 }
 
 .hero h1 {
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 20px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
@@ -71,6 +60,10 @@ body {
   background-color: #e65c00;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
 
 /* Keyframes for Hero Background Animation */
 @keyframes moveBackground {
